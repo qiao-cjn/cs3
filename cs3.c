@@ -4,7 +4,7 @@ int main()
 {
 	int A[10];
 	int *a=A;
-	printf("%p\n",&A);
+	printf("%p\n",&A[0]);
 	A[0]=1;
 	printf("%p\n",A);
 	
